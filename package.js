@@ -3,9 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-	api.use(['coffeescript','deps','underscore'],'client');
+	api.use(['coffeescript','deps','ejson','underscore'],'client');
 
-  
   api.export('EventHorizon');
 
 	api.add_files([
